@@ -43,11 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="自定义泛型委托\GenericDelegate.cs" />
+    <Compile Include="系统泛型委托\FuncAction.cs" />
+    <Compile Include="系统泛型委托\FunDelegateDemo.cs" />
+    <Compile Include="委托、匿名方法与lambda\LambdaDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
